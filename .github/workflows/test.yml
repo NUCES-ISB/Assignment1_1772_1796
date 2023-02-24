@@ -3,7 +3,7 @@ name: Push Event Workflow
 on: 
   push:
     branches:
-      - Abdullah-dev
+      - master
 
 permissions:
   contents: read

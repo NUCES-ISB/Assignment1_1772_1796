@@ -13,5 +13,8 @@ jobs:
     - name : Install Packages 
       run : pip install pytest
       
+    - name : Install Packages 
+      run : pip install Pillow
+      
     - name : Run tests 
       run : pytest unit_test/run_unit_test.py

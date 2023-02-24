@@ -3,10 +3,7 @@ name: Push Event Workflow
 on: 
   push:
     branches:
-      - master
-
-permissions:
-  contents: read
+      - Abdullah-dev
 
 jobs:
   run_tests:
